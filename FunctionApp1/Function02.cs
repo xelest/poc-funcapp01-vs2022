@@ -27,7 +27,7 @@ namespace FunctionApp1
 
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "TA POC TEST CASE 08232023"
-                : $"Hello, {name}. This HTTP triggered function executed successfully.";
+                : $"Hello, {name}. GET REQUEST! received. This is a response";
 
             return new OkObjectResult(responseMessage);
         }
