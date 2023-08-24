@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_poc_funcapp01_vs2022_1692867047382-pr-trigger-input-set
+  identifier: Build_poc_funcapp01_vs2022_1692867047382prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_poc_funcapp01_vs2022_1692867047382
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
