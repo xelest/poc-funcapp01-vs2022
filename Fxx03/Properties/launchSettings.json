@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Fxx03": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7157"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33059,
+      "useSSL": false
+    }
+  }
+}
